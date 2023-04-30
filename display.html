@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>BlockStyle</title>
+        <style>
+            .content {
+                background-color: rgb(250, 213, 158);
+                color: blue;
+                font-size: 20px;
+                width: 90%;
+                margin: 15px;
+                padding: 30px;
+            }
+
+            .display1 {
+                    display: block;
+            }
+
+            .display2 {
+                    display: inline;
+                    text-align: center;
+            }
+
+            .display3 {
+                    display: inline-block;
+                    text-align: center;
+            }
+
+            .block-one {
+                background-color: rgb(35, 243, 8);
+                height: 50px;
+                width: 20%;
+                margin: 20px;
+                padding: 30px;
+            }
+
+            .block-two {
+                background-color: rgb(243, 188, 8);
+                height: 50px;
+                width: 20%;
+                margin: 20px;
+                padding: 30px;
+            }
+
+            .block-tree {
+                background-color: rgb(243, 8, 8);
+                height: 50px;
+                width: 20%;
+                margin: 20px;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Блоки со стилем Display block </h1>
+        </div>
+        <div class="content">
+            <div class="display1 block-one">Блок 1</div>
+            <div class="display1 block-two">Блок 2</div>
+            <div class="display1 block-tree">Блок 3</div>
+        </div>
+
+        <div>
+            <h1>Блоки со стилем Display inline </h1>
+        </div>
+        <div class="content">
+            <div class="display2 block-one">Блок 1</div>
+            <div class="display2 block-two">Блок 2</div>
+            <div class="display2 block-tree">Блок 3</div>
+        </div>
+
+        <div>
+            <h1>Блоки со стилем Display inline-block </h1>
+        </div>
+        <div class="content">
+            <div class="display3 block-one">Блок 1</div>
+            <div class="display3 block-two">Блок 2</div>
+            <div class="display3 block-tree">Блок 3</div>
+        </div>
+    </body>
+</html>
